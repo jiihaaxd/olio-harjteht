@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Finnkinon elokuvat">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valitse teatteri:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <ComboBox layoutX="14.0" layoutY="77.0" prefHeight="25.0" prefWidth="300.0" />
+      <Text layoutX="14.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alkamisväli:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="14.0" layoutY="155.0" prefHeight="25.0" prefWidth="300.0" promptText="Alkamisaika" />
+      <Button layoutX="216.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" text="Listaa elokuvat" />
+      <TextField layoutX="322.0" layoutY="77.0" prefHeight="25.0" prefWidth="276.0" promptText="Esityspäivä" />
+      <TextField layoutX="322.0" layoutY="155.0" prefHeight="25.0" prefWidth="276.0" promptText="Päättymisaika" />
+      <Text layoutX="14.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tai hae elokuvan nimellä:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="191.0" layoutY="238.0" prefHeight="25.0" prefWidth="300.0" promptText="Anna elokuvan  nimi" />
+      <Button layoutX="498.0" layoutY="238.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" text="Nimihaku" />
+      <Label layoutY="263.0" prefHeight="138.0" prefWidth="600.0" />
+   </children>
+</Pane>
